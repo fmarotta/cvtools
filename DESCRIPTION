@@ -1,0 +1,19 @@
+Package: cvtools
+Type: Package
+Title: Perform cross-validation and nested cross-validation
+Version: 0.3.1
+Authors@R: person("Federico", "Marotta", email = "federico.marotta@edu.unito.it",
+  role = c("aut", "cre"))
+Maintainer: Federico Marotta <federico.marotta@edu.unito.it>
+Description: Perform cross-validation and nested cross validation for any
+    user-specified model.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 6.1.1
+Imports:
+    data.table,
+    parallel
+Remotes:
+    local::/bioinfo/prj/integrated_twas/local/src/byrow
